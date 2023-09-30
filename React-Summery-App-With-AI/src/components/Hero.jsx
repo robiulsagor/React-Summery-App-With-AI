@@ -1,11 +1,11 @@
-import React from 'react'
+import { logo } from '../assets'
 
 const Hero = () => {
     return (
         <header className='w-full flex flex-col items-center'>
             <nav className='w-full flex justify-between p-2
             mb-10 pt-3'>
-                <img src="./src/assets/logo.svg" alt="logo"
+                <img src={logo} alt="logo"
                     className='w-28' />
 
                 <button className='bg-gray-900 text-slate-50 px-5 py-1.5 rounded-full hover:bg-white hover:text-slate-800 transition-all duration-300 border border-black'
